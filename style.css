@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+img {
+    float: left;
+    width: 75px;
+    height: 75px;
+}
+#nav-bar {
+    float: right;
+     
+}
+header {
+    height: 100px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    margin-right: 77px;
+    line-height: 50px;
+    
+    
+    
+}
+li{
+    list-style-type: none;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    margin: 17px;
+}
+
+#video{
+    width: 720px;
+    height: 520px;
+    margin: 0 25px 0 25px;
+    
+}
+
+form {
+    margin: 20px 0;
+}
+
+/*######################################### Responsive #################################################*/
+
+@media screen and (max-width:720px){
+    #video{
+        width: auto;
+    }
+    
+    
+}
+
